@@ -1,0 +1,43 @@
+.navbar{
+  background-color: #228B22;
+}
+.navbar-brand{
+  margin-left:100px;
+  color:#D3D3D3;
+  font-weight:700;
+  font-size:22px;
+}
+.collapse{
+  margin-left:240px;
+}
+.nav-link{
+  color: #D3D3D3;
+  font-weight:700;
+  font-size:17px;
+}
+.navbar-nav{
+  gap:40px;
+}
+.text-container {
+  margin-top: 20px;
+}
+
+.button-one {
+  background-color: #228B22;
+  color: #D3D3D3;
+}
+.card {
+  min-height: 200px;
+}
+
+
+/* Media Query for Mobile Responsiveness */
+@media (max-width: 767px) {
+  .text-container {
+    margin-top: 20px; /* Adjust for better spacing on mobile */
+  }
+
+  .button-one {
+    width: 75%; /* Adjust button width for mobile */
+  }
+}
